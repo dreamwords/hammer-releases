@@ -65,6 +65,12 @@ Hammer 把这一切包进了一个真正的桌面应用：多个对话窗口、�
 2. 打开 .dmg，把 Hammer 拖到「应用程序」
 3. 打开 Hammer，选好工作目录，开始对话
 
+> [!IMPORTANT]
+> 当前版本尚未签名，macOS 可能会提示「应用已损坏，无法打开」。遇到这种情况，请打开终端，运行以下命令，然后重新打开 Hammer：
+> ```
+> xattr -cr /Applications/Hammer.app
+> ```
+
 ---
 
 ## 关于

@@ -65,6 +65,13 @@ Then:
 2. Open the .dmg and drag Hammer to Applications
 3. Open Hammer, pick a working directory, and start chatting
 
+> [!IMPORTANT]
+> This build is unsigned. macOS may warn that Hammer is "damaged and can't be opened." If that happens, open Terminal and run:
+> ```
+> xattr -cr /Applications/Hammer.app
+> ```
+> Then try opening Hammer again.
+
 ---
 
 ## About
