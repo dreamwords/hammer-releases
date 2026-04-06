@@ -1,4 +1,4 @@
-# 🔨 Hammer
+# Hammer
 
 A desktop client for Claude Code. No terminal, no command line — just open and use.
 

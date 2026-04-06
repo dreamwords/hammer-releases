@@ -1,4 +1,4 @@
-# 🔨 Hammer
+# Hammer
 
 Claude Code 的桌面客户端。不用终端，不用命令行，打开就能用。
 
