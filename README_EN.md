@@ -80,4 +80,6 @@ Then:
 
 Built by Elan and Zhongchen. We made it for ourselves — hope you find it useful too.
 
+Special thanks to 耳总 for designing Hammer's logo and default avatars.
+
 Bugs and feedback welcome via [Issues](https://github.com/dreamwords/hammer-releases/issues).
