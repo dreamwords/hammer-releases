@@ -66,11 +66,13 @@ Then:
 3. Open Hammer, pick a working directory, and start chatting
 
 > [!IMPORTANT]
-> This build is unsigned. macOS may warn that Hammer is "damaged and can't be opened." If that happens, open Terminal and run:
+> This build is unsigned. macOS may warn that Hammer is "damaged and can't be opened." If that happens:
+> 1. Make sure Hammer.app is in your Applications folder (drag it there first if needed)
+> 2. Open Terminal and run:
 > ```
 > xattr -cr /Applications/Hammer.app
 > ```
-> Then try opening Hammer again.
+> 3. Try opening Hammer again
 
 ---
 
