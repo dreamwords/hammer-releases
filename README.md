@@ -77,4 +77,4 @@ Hammer 把这一切包进了一个真正的桌面应用：多个对话窗口、�
 
 由孟岩和小主开发，自用觉得好用，希望你也喜欢。
 
-问题反馈欢迎开 [Issue](https://github.com/dreamwords/hammer-releases/issues)。
+遇到问题，欢迎[在这里反馈](https://github.com/dreamwords/hammer-releases/issues)。
