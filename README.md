@@ -80,6 +80,6 @@ Hammer 把这一切包进了一个真正的桌面应用：多个对话窗口、�
 
 由孟岩和小主开发，自用觉得好用，希望你也喜欢。
 
-特别感谢耳总为 Hammer 设计了高级又可爱的 logo 和默认头像。
+特别感谢耳总为 Hammer 设计了高级又可爱的 `logo` 和默认头像。
 
 遇到问题，欢迎[在这里反馈](https://github.com/dreamwords/hammer-releases/issues)。
