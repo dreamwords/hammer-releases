@@ -1,6 +1,6 @@
 # Hammer
 
-你的 AI 编程搭档，支持 Claude、ChatGPT、Kimi、DeepSeek。不用终端，不用命令行，打开就能用。
+你的 AI 搭档，支持 Claude、ChatGPT、Kimi、DeepSeek。不用终端，不用命令行，打开就能用。
 
 **[下载 Hammer for macOS →](https://github.com/dreamwords/hammer-releases/releases/latest)**
 
@@ -19,7 +19,7 @@
 
 ## 为什么需要 Hammer
 
-AI 编程助手越来越多，但每个都有自己的界面、自己的会话记录、自己的操作方式。你在 Claude Code 终端里开了一个任务，又想用 ChatGPT 试试另一个方案，再看看 Kimi 对某段代码的理解——结果三个窗口、三套工具、三份散落的历史。
+AI 助手越来越多，但每个都有自己的界面、自己的会话记录、自己的操作方式。你在 Claude Code 终端里开了一个任务，又想用 ChatGPT 试试另一个角度，再让 Kimi 帮着看看某段内容——结果三个窗口、三套工具、三份散落的历史。
 
 Hammer 把这些装进一个桌面应用：不同对话用不同模型，历史永久保存，文件树、任务进度、用量统计都在一个界面里。你只管和 AI 说话，不用在工具之间来回切。
 

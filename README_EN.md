@@ -1,6 +1,6 @@
 # Hammer
 
-Your AI coding companion — Claude, ChatGPT, Kimi, DeepSeek. No terminal, no command line, just open and use.
+Your AI companion — Claude, ChatGPT, Kimi, DeepSeek. No terminal, no command line, just open and use.
 
 **[Download Hammer for macOS →](https://github.com/dreamwords/hammer-releases/releases/latest)**
 
@@ -19,7 +19,7 @@ Your AI coding companion — Claude, ChatGPT, Kimi, DeepSeek. No terminal, no co
 
 ## Why Hammer
 
-There are more AI coding assistants every month, each with its own interface, its own history, its own way of working. You start a task in Claude Code's terminal, then want to try a different angle in ChatGPT, then check how Kimi reads a particular snippet — and end up with three windows, three sets of tools, and three scattered histories.
+There are more AI assistants every month, each with its own interface, its own history, its own way of working. You start a task in Claude Code's terminal, then want to try a different angle in ChatGPT, then have Kimi take a look at some passage — and end up with three windows, three sets of tools, and three scattered histories.
 
 Hammer packs all of that into a single desktop app: different conversations on different models, history preserved forever, file tree, task progress, and usage tracking all in one place. You just talk to the AI — no shuttling between tools.
 
