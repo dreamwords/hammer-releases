@@ -43,7 +43,7 @@ The most tiring part of long sessions with an AI usually isn't the work itself �
 - **Room to breathe** — Paragraphs, turns, code blocks all have generous, deliberate spacing. Nothing feels cramped; the rhythm is natural.
 - **Stays out of the way** — Dividers, blockquotes, and decorative elements use restrained neutral grays. The UI recedes into the background. Your attention goes to the content.
 
-We want the moment you open Hammer to feel relaxed, not like another tool tugging at you. Working with AI already takes focus; the interface shouldn't be asking for any of it.
+We want the moment you open Hammer to feel relaxed.
 
 ---
 
