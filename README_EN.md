@@ -4,7 +4,7 @@ Your AI companion — Claude, ChatGPT, Kimi, DeepSeek. No terminal, no command l
 
 **[Download Hammer for macOS →](https://github.com/dreamwords/hammer-releases/releases/latest)**
 
-> Apple Silicon only (M1 and later)
+> Supports both Apple Silicon (M1 and later) and Intel chips
 
 [中文](README.md) | English
 
@@ -86,6 +86,7 @@ We want the moment you open Hammer to feel relaxed.
 ## Getting Started
 
 1. [Download the latest .dmg](https://github.com/dreamwords/hammer-releases/releases/latest)
+   - Files with `-arm64` are for Apple Silicon (M1 and later); the one without an arch suffix (`Hammer-X.Y.Z.dmg`) is the Intel build
 2. Open the .dmg and drag Hammer to Applications
 3. Open Hammer and follow the onboarding to set up your models (for Claude, install the [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) first; other models just need an API key)
 4. Pick a working directory and start a conversation

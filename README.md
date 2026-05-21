@@ -4,7 +4,7 @@
 
 **[下载 Hammer for macOS →](https://github.com/dreamwords/hammer-releases/releases/latest)**
 
-> 目前仅支持 Apple Silicon（M1 及以上）
+> 支持 Apple Silicon（M1 及以上）与 Intel 芯片
 
 [English](README_EN.md) | 中文
 
@@ -86,6 +86,7 @@ Hammer 把 Claude Code 这一整套成熟的 Harness（工作环境）直接搬�
 ## 开始使用
 
 1. [下载最新版 .dmg](https://github.com/dreamwords/hammer-releases/releases/latest)
+   - 文件名带 `-arm64` 的是 Apple Silicon 版（M1 及以上）；不带架构后缀的 `Hammer-X.Y.Z.dmg` 是 Intel 版
 2. 打开 .dmg，把 Hammer 拖到「应用程序」
 3. 打开 Hammer，按引导配置你想用的模型（Claude 需要先装 [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code)，其他模型填 API Key 即可）
 4. 选好工作目录，开始对话
