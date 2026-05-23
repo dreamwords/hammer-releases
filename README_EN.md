@@ -88,7 +88,7 @@ We want the moment you open Hammer to feel relaxed.
 1. [Download the latest .dmg](https://github.com/dreamwords/hammer-releases/releases/latest)
    - Files with `-arm64` are for Apple Silicon (M1 and later); the one without an arch suffix (`Hammer-X.Y.Z.dmg`) is the Intel build
 2. Open the .dmg and drag Hammer to Applications
-3. Open Hammer and follow the onboarding to set up your models (for Claude, install the [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) first; other models just need an API key)
+3. Open Hammer and follow the onboarding to set up your models — sign in with your account for Claude and ChatGPT, paste an API key for Kimi / DeepSeek / GLM, or configure a custom gateway to bring your own key
 4. Pick a working directory and start a conversation
 
 ---
