@@ -20,7 +20,9 @@ cask "hammer" do
   app "Hammer.app"
 
   zap trash: [
+    "~/.hammer"
     "~/Library/Application Support/Hammer",
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.hammer.app.sfl4",
     "~/Library/Caches/com.hammer.app",
     "~/Library/Logs/Hammer",
     "~/Library/Preferences/com.hammer.app.plist",
