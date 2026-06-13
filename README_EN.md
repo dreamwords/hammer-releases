@@ -6,6 +6,14 @@ Your AI companion — Claude, ChatGPT, Kimi, DeepSeek. No terminal, no command l
 
 > Supports both Apple Silicon (M1 and later) and Intel chips
 
+**Install via Homebrew:**
+
+```bash
+brew tap dreamwords/hammer-releases https://github.com/dreamwords/hammer-releases
+brew trust dreamwords/hammer-releases
+brew install --cask hammer
+```
+
 [中文](README.md) | English
 
 ---

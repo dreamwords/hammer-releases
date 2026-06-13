@@ -6,6 +6,14 @@
 
 > 支持 Apple Silicon（M1 及以上）与 Intel 芯片
 
+**通过 Homebrew 安装：**
+
+```bash
+brew tap dreamwords/hammer-releases https://github.com/dreamwords/hammer-releases
+brew trust dreamwords/hammer-releases
+brew install --cask hammer
+```
+
 [English](README_EN.md) | 中文
 
 ---
