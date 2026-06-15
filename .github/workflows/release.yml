@@ -70,3 +70,51 @@ jobs:
           draft: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  update-cask:
+    needs: build-mac
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version
+        id: ver
+        run: echo "value=${TAG#v}" >> "$GITHUB_OUTPUT"
+        env:
+          TAG: ${{ inputs.tag }}
+
+      - name: Download DMGs and compute SHA256
+        id: hashes
+        env:
+          V: ${{ steps.ver.outputs.value }}
+        run: |
+          BASE="https://github.com/${{ github.repository }}/releases/download/v${V}"
+          curl -fsSL --retry 3 "${BASE}/Hammer-${V}-arm64.dmg" -o arm64.dmg
+          curl -fsSL --retry 3 "${BASE}/Hammer-${V}.dmg"       -o intel.dmg
+          echo "arm64=$(sha256sum arm64.dmg | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+          echo "intel=$(sha256sum intel.dmg  | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+
+      - name: Patch cask
+        env:
+          V: ${{ steps.ver.outputs.value }}
+          ARM64: ${{ steps.hashes.outputs.arm64 }}
+          INTEL: ${{ steps.hashes.outputs.intel }}
+        run: |
+          sed -i \
+            -e "s|version \"[^\"]*\"|version \"${V}\"|" \
+            -e "/on_arm do/,/^[[:space:]]*end[[:space:]]*$/{s|sha256 \"[^\"]*\"|sha256 \"${ARM64}\"|}" \
+            -e "/on_intel do/,/^[[:space:]]*end[[:space:]]*$/{s|sha256 \"[^\"]*\"|sha256 \"${INTEL}\"|}" \
+            Casks/hammer.rb
+
+      - name: Commit and push
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Casks/hammer.rb
+          git diff --quiet --cached || git commit -m "chore: bump cask to ${TAG}"
+          git pull --rebase origin main
+          git push
