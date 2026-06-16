@@ -85,11 +85,21 @@ Hammer 把 Claude Code 这一整套成熟的 Harness（工作环境）直接搬�
 
 ## 开始使用
 
+### 直接下载安装
+
 1. [下载最新版 .dmg](https://github.com/dreamwords/hammer-releases/releases/latest)
    - 文件名带 `-arm64` 的是 Apple Silicon 版（M1 及以上）；不带架构后缀的 `Hammer-X.Y.Z.dmg` 是 Intel 版
 2. 打开 .dmg，把 Hammer 拖到「应用程序」
 3. 打开 Hammer，按引导配置你想用的模型——Claude 和 ChatGPT 直接用账号登录，Kimi / DeepSeek / GLM 填 API Key，也支持配置自定义网关接入自己的 Key
 4. 选好工作目录，开始对话
+
+### 通过 Homebrew 安装
+
+```bash
+brew tap dreamwords/hammer-releases https://github.com/dreamwords/hammer-releases
+brew trust dreamwords/hammer-releases
+brew install --cask hammer
+```
 
 ---
 
