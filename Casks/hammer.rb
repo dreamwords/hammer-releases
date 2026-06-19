@@ -7,7 +7,7 @@ cask "hammer" do
     url "https://github.com/dreamwords/hammer-releases/releases/download/v#{version}/Hammer-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "c52ff4d3284935a37e1fc0183fcab58798836c5dbf685ed6294838b1520f8fd2"
+    sha256 "3f54af95e87d7c57b46ae065e591792773ab66374b9977d1123fd26f14900f0a"
 
     url "https://github.com/dreamwords/hammer-releases/releases/download/v#{version}/Hammer-#{version}.dmg"
   end
