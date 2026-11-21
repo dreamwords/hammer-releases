@@ -1,13 +1,13 @@
 cask "hammer" do
-  version "1.2.2"
+  version "1.3.0"
 
   on_arm do
-    sha256 "9a563e56472b085f58319b7e85b021f140db159b4f6cc07ada93b45ba41bf5b9"
+    sha256 "a0d21ff9f9beda9cf24e9a3c725c27c0bf0feef1132a3b956093cd00efe4f990"
 
     url "https://github.com/dreamwords/hammer-releases/releases/download/v#{version}/Hammer-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "f99b1e72b6939564e6ca565e1a9c57d92bf65f4735b7f3d4774362e5d7614283"
+    sha256 "d9b07879d111fc5bd5551bf41aab6448f5937f9c0e84c4950ef0986da19d258a"
 
     url "https://github.com/dreamwords/hammer-releases/releases/download/v#{version}/Hammer-#{version}.dmg"
   end
